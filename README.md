@@ -4,7 +4,7 @@ This project requires [spark](https://www.apache.org/dyn/closer.lua/spark/spark-
 
 ## Background
 Here we are going to use an example of actually maintaining state across sessions in a weblog.
-So if you need to maintain some sort of state while data streaming in, maybe you're keeping some running totals or in our example, we're going to be maintaining the state of a session as a individual IP clicks through a Web site, you can do that with smart streaming.
+So if you need to maintain some sort of state while data streaming in, maybe you're keeping some running totals or in our example, we're going to be maintaining the state of a session as an individual IP clicks through a Web site, you can do that with smart streaming.
 You don't have to just discard the data as soon as you get it or write it out or whatever you want to do.
 You can actually keep track of stuff as you go and that's what Map with State does.
 
